@@ -1,0 +1,1 @@
+﻿Send-MailMessage -SmtpServer bugs.nss.sys -to ssmall@morphotrust.com -from ssmall@morphotrust.com -Subject 'bugs rebooted' -body (get-date)
